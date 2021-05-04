@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1D8DED7926388A0C000B69AD /* LocoFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D8DED7726388A0B000B69AD /* LocoFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D8DED8026388AAE000B69AD /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8DED7F26388AAE000B69AD /* Services.swift */; };
+		1DFEE7DB2641FD4C00B34EDC /* other.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFEE7DA2641FD4C00B34EDC /* other.swift */; };
+		1DFEE7DC2641FD6200B34EDC /* LocoFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8DED7426388A0B000B69AD /* LocoFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +18,7 @@
 		1D8DED7726388A0B000B69AD /* LocoFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocoFramework.h; sourceTree = "<group>"; };
 		1D8DED7826388A0C000B69AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D8DED7F26388AAE000B69AD /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		1DFEE7DA2641FD4C00B34EDC /* other.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = other.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -23,6 +26,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DFEE7DC2641FD6200B34EDC /* LocoFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +55,7 @@
 				1D8DED7726388A0B000B69AD /* LocoFramework.h */,
 				1D8DED7826388A0C000B69AD /* Info.plist */,
 				1D8DED7F26388AAE000B69AD /* Services.swift */,
+				1DFEE7DA2641FD4C00B34EDC /* other.swift */,
 			);
 			path = LocoFramework;
 			sourceTree = "<group>";
@@ -135,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DFEE7DB2641FD4C00B34EDC /* other.swift in Sources */,
 				1D8DED8026388AAE000B69AD /* Services.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
